@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="38" passed="10" failed="7" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-21T21:56:16 MST" name="class26_TestNG" finished-at="2023-12-21T21:57:38 MST" duration-ms="82459">
+    <groups>
+    </groups>
+    <test started-at="2023-12-21T21:56:16 MST" name="class26_TestNG_Verification_Test" finished-at="2023-12-21T21:57:38 MST" duration-ms="82459">
+      <class name="tests_dataTables.HomePageVerification">
+        <test-method signature="homePageVerification()[pri:0, instance:tests_dataTables.HomePageVerification@47eaca72]" started-at="2023-12-21T21:56:23 MST" name="homePageVerification" finished-at="2023-12-21T21:56:29 MST" duration-ms="6194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerification -->
+      </class> <!-- tests_dataTables.HomePageVerification -->
+      <class name="tests_swagLab.Test_SwagLab_AddToCard">
+        <test-method signature="test_AddToCard()[pri:0, instance:tests_swagLab.Test_SwagLab_AddToCard@3270d194]" started-at="2023-12-21T21:56:34 MST" name="test_AddToCard" finished-at="2023-12-21T21:56:39 MST" duration-ms="5529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AddToCard -->
+      </class> <!-- tests_swagLab.Test_SwagLab_AddToCard -->
+      <class name="tests_michroTech_DataProvider.HomePageVerification">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:tests_michroTech_DataProvider.HomePageVerification@2a4fb17b]" started-at="2023-12-21T21:56:07 MST" name="startUp" finished-at="2023-12-21T21:56:16 MST" duration-ms="8168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="homePageVerify1()[pri:0, instance:tests_michroTech_DataProvider.HomePageVerification@2a4fb17b]" started-at="2023-12-21T21:56:29 MST" name="homePageVerify1" finished-at="2023-12-21T21:56:30 MST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerify1 -->
+        <test-method signature="homePageVerify2()[pri:1, instance:tests_michroTech_DataProvider.HomePageVerification@2a4fb17b]" started-at="2023-12-21T21:57:23 MST" name="homePageVerify2" finished-at="2023-12-21T21:57:24 MST" duration-ms="159" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[------homePageVerify2 Test is Fail will print---------------
+expected [Ayaat] but found [Rosy]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ------homePageVerify2 Test is Fail will print---------------
+expected [Ayaat] but found [Rosy]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at tests_michroTech_DataProvider.HomePageVerification.homePageVerify2(HomePageVerification.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerify2 -->
+        <test-method signature="homePageVerify3()[pri:2, instance:tests_michroTech_DataProvider.HomePageVerification@2a4fb17b]" started-at="2023-12-21T21:57:27 MST" name="homePageVerify3" finished-at="2023-12-21T21:57:27 MST" duration-ms="129" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[-------------------Home Page3 Test Fail-----------------------]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: -------------------Home Page3 Test Fail-----------------------
+at org.testng.Assert.fail(Assert.java:99)
+at tests_michroTech_DataProvider.HomePageVerification.homePageVerify3(HomePageVerification.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerify3 -->
+        <test-method signature="homePageVerify4()[pri:3, instance:tests_michroTech_DataProvider.HomePageVerification@2a4fb17b]" started-at="2023-12-21T21:57:30 MST" name="homePageVerify4" finished-at="2023-12-21T21:57:30 MST" duration-ms="44" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--------Home Page4 Test Skip-------------]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --------Home Page4 Test Skip-------------
+at tests_michroTech_DataProvider.HomePageVerification.homePageVerify4(HomePageVerification.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerify4 -->
+        <test-method signature="homePageVerify5()[pri:4, instance:tests_michroTech_DataProvider.HomePageVerification@2a4fb17b]" started-at="2023-12-21T21:57:38 MST" name="homePageVerify5" finished-at="2023-12-21T21:57:38 MST" duration-ms="51" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[------------homePageVerify5 Soft Assertion Done-------------
+expected [Ayaat] but found [Rosy],
+---------This stmt will be executed bcoz of Soft Assertion---------- expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ------------homePageVerify5 Soft Assertion Done-------------
+expected [Ayaat] but found [Rosy],
+---------This stmt will be executed bcoz of Soft Assertion---------- expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at tests_michroTech_DataProvider.HomePageVerification.homePageVerify5(HomePageVerification.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerify5 -->
+        <test-method signature="homePageVerify6()[pri:5, instance:tests_michroTech_DataProvider.HomePageVerification@2a4fb17b]" started-at="2023-12-21T21:57:38 MST" name="homePageVerify6" finished-at="2023-12-21T21:57:38 MST" duration-ms="50" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[-------No further stmt will not be executed bcoz of Hard Assertion---- expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: -------No further stmt will not be executed bcoz of Hard Assertion---- expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at tests_michroTech_DataProvider.HomePageVerification.homePageVerify6(HomePageVerification.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerify6 -->
+        <test-method is-config="true" signature="Close_All()[pri:0, instance:tests_michroTech_DataProvider.HomePageVerification@2a4fb17b]" started-at="2023-12-21T21:57:38 MST" name="Close_All" finished-at="2023-12-21T21:57:39 MST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_All -->
+      </class> <!-- tests_michroTech_DataProvider.HomePageVerification -->
+      <class name="utils.ReadExcel">
+        <test-method signature="read_excel_sheet()[pri:0, instance:utils.ReadExcel@55141def]" started-at="2023-12-21T21:56:33 MST" name="read_excel_sheet" finished-at="2023-12-21T21:56:34 MST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read_excel_sheet -->
+      </class> <!-- utils.ReadExcel -->
+      <class name="tests_michroTech_DataProvider.Test_Customer_Login">
+        <test-method signature="test_Customer_Login()[pri:3, instance:tests_michroTech_DataProvider.Test_Customer_Login@7b2bbc3]" started-at="2023-12-21T21:57:32 MST" name="test_Customer_Login" finished-at="2023-12-21T21:57:38 MST" duration-ms="5652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Customer_Login -->
+      </class> <!-- tests_michroTech_DataProvider.Test_Customer_Login -->
+      <class name="tests_swagLab.Test_Swag_Lab_Logout">
+        <test-method signature="logoutpage1()[pri:0, instance:tests_swagLab.Test_Swag_Lab_Logout@5656be13]" started-at="2023-12-21T21:56:30 MST" name="logoutpage1" finished-at="2023-12-21T21:56:33 MST" duration-ms="2521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutpage1 -->
+        <test-method signature="logoutpage2()[pri:1, instance:tests_swagLab.Test_Swag_Lab_Logout@5656be13]" started-at="2023-12-21T21:57:24 MST" name="logoutpage2" finished-at="2023-12-21T21:57:26 MST" duration-ms="2489" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at tests_swagLab.Test_Swag_Lab_Logout.logoutpage2(Test_Swag_Lab_Logout.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutpage2 -->
+        <test-method signature="logoutpage3()[pri:3, instance:tests_swagLab.Test_Swag_Lab_Logout@5656be13]" started-at="2023-12-21T21:57:30 MST" name="logoutpage3" finished-at="2023-12-21T21:57:32 MST" duration-ms="2413" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[----Log out Page3 test skip----------]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: ----Log out Page3 test skip----------
+at tests_swagLab.Test_Swag_Lab_Logout.logoutpage3(Test_Swag_Lab_Logout.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutpage3 -->
+      </class> <!-- tests_swagLab.Test_Swag_Lab_Logout -->
+      <class name="tests_swagLab.HomePageVerification">
+        <test-method signature="homePageVerification()[pri:0, instance:tests_swagLab.HomePageVerification@55182842]" started-at="2023-12-21T21:56:21 MST" name="homePageVerification" finished-at="2023-12-21T21:56:23 MST" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerification -->
+        <test-method signature="homePageVerification1()[pri:1, instance:tests_swagLab.HomePageVerification@55182842]" started-at="2023-12-21T21:57:22 MST" name="homePageVerification1" finished-at="2023-12-21T21:57:23 MST" duration-ms="1117" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[---------------------The test will skip---------------]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: ---------------------The test will skip---------------
+at tests_swagLab.HomePageVerification.homePageVerification1(HomePageVerification.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerification1 -->
+        <test-method signature="homePageVerification2()[pri:2, instance:tests_swagLab.HomePageVerification@55182842]" started-at="2023-12-21T21:57:26 MST" name="homePageVerification2" finished-at="2023-12-21T21:57:27 MST" duration-ms="1101" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Swag Labs] but found [Swag Labs1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Swag Labs] but found [Swag Labs1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests_swagLab.HomePageVerification.homePageVerification2(HomePageVerification.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerification2 -->
+      </class> <!-- tests_swagLab.HomePageVerification -->
+      <class name="tests_dataTables.Class2_DataTable">
+        <test-method signature="class2_DataTable()[pri:0, instance:tests_dataTables.Class2_DataTable@1aafa419]" started-at="2023-12-21T21:56:16 MST" name="class2_DataTable" finished-at="2023-12-21T21:56:21 MST" duration-ms="5694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class2_DataTable -->
+      </class> <!-- tests_dataTables.Class2_DataTable -->
+      <class name="tests_michroTech_DataProvider.Test_Employee_Login">
+        <test-method signature="test_Employee_Login()[pri:2, instance:tests_michroTech_DataProvider.Test_Employee_Login@a1153bc]" started-at="2023-12-21T21:57:27 MST" name="test_Employee_Login" finished-at="2023-12-21T21:57:30 MST" duration-ms="2632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Employee_Login -->
+      </class> <!-- tests_michroTech_DataProvider.Test_Employee_Login -->
+      <class name="tests_michroTech_DataProvider.Test_Create_Order">
+        <test-method signature="test_Create_Order()[pri:0, instance:tests_michroTech_DataProvider.Test_Create_Order@4c583ecf]" started-at="2023-12-21T21:56:39 MST" name="test_Create_Order" finished-at="2023-12-21T21:56:49 MST" duration-ms="9719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Create_Order -->
+      </class> <!-- tests_michroTech_DataProvider.Test_Create_Order -->
+      <class name="tests_swagLab.Test_Swag_Lab_Login">
+        <test-method signature="test_Swag_Lab_Login()[pri:0, instance:tests_swagLab.Test_Swag_Lab_Login@235834f2]" started-at="2023-12-21T21:56:49 MST" name="test_Swag_Lab_Login" finished-at="2023-12-21T21:57:22 MST" duration-ms="33417" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']")
+============================================================
+    at ProgressController.run (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\frames.js:995:23)
+    at FrameDispatcher.click (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\dispatchers\frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\dispatchers\dispatcher.js:346:46)
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']")
+============================================================
+    at ProgressController.run (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\frames.js:995:23)
+    at FrameDispatcher.click (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\dispatchers\frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\dispatchers\dispatcher.js:346:46)
+}
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)
+at com.microsoft.playwright.Locator.click(Locator.java:2348)
+at base.Base.click(Base.java:55)
+at tests_swagLab.Test_Swag_Lab_Login.test_Swag_Lab_Login(Test_Swag_Lab_Login.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']")
+============================================================
+    at ProgressController.run (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\frames.js:995:23)
+    at FrameDispatcher.click (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\dispatchers\frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (C:\Users\mahfo\AppData\Local\Temp\playwright-java-8671509674293070329\package\lib\server\dispatchers\dispatcher.js:346:46)
+}
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:224)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Swag_Lab_Login -->
+      </class> <!-- tests_swagLab.Test_Swag_Lab_Login -->
+    </test> <!-- class26_TestNG_Verification_Test -->
+  </suite> <!-- class26_TestNG -->
+</testng-results>
